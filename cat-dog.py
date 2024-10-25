@@ -8,11 +8,12 @@ import numpy as np
 model = YOLO("best.pt")
 
 # Streamlit title
-st.title("Cat and Dog Image Classification")
+st.title("Cats and Dogs Image Classification")
+st.subheader("Using AI to Tell the Difference Between Cats and Dogs")  # Subtitle
 st.image('Group-98-1.webp',  width = 700)
 
 # Image upload option
-st.title("Upload Image below to make Prediction")
+st.title("Upload Image below to make Predictions")
 uploaded_file = st.file_uploader("Upload an image...", type=["jpeg", "jpg", "png"])
 if uploaded_file is not None:
     # Load and display the uploaded image
