@@ -12,6 +12,7 @@ st.title("YOLO Model Deployment")
 st.image('Group-98-1.webp',  width = 700)
 
 # Image upload option
+st.title("Upload Image below to make Prediction")
 uploaded_file = st.file_uploader("Upload an image...", type=["jpeg", "jpg", "png"])
 if uploaded_file is not None:
     # Load and display the uploaded image
