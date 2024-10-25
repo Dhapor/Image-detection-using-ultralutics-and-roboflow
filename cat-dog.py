@@ -8,7 +8,7 @@ import numpy as np
 model = YOLO("best.pt")
 
 # Streamlit title
-st.title("YOLO Model Deployment")
+st.title("Cat and Dog Image Classification")
 st.image('Group-98-1.webp',  width = 700)
 
 # Image upload option
