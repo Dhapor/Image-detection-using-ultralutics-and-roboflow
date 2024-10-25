@@ -9,6 +9,7 @@ model = YOLO("best.pt")
 
 # Streamlit title
 st.title("YOLO Model Deployment")
+st.image('Group-98-1.webp',  width = 700)
 
 # Image upload option
 uploaded_file = st.file_uploader("Upload an image...", type=["jpeg", "jpg", "png"])
