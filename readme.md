@@ -1,7 +1,7 @@
 
 # Dog-Cat Detection Project
 
-This project builds an object detection model to classify images of dogs and cats using YOLOv5.
+This project builds an object detection model to classify images of dogs and cats using YOLO11.
 
 ## Table of Contents
 
@@ -29,11 +29,11 @@ The purpose of this project is to create a YOLO-based model that distinguishes b
 ### 2. Dataset Preparation in Ultralytics
 
 - **Dataset Export**: The annotated dataset was exported in YOLO format.
-- **Data Import**: This dataset was prepared for use in Ultralytics YOLOv5.
+- **Data Import**: This dataset was prepared for use in Ultralytics YOLO11.
 
 ### 3. Model Training in Google Colab
 
-- **Model Setup**: YOLOv5 from [Ultralytics](https://github.com/ultralytics/yolov5) was configured on Google Colab.
+- **Model Setup**: YOLO11 from Ultralytics was configured on Google Colab.
 - **Training**: The model was trained with optimized parameters to improve detection accuracy.
 - **Testing**: Used test images to evaluate the model, displaying bounding boxes and confidence scores.
 
@@ -43,13 +43,13 @@ The purpose of this project is to create a YOLO-based model that distinguishes b
 
 ## Results
 
-The trained YOLOv5 model achieved reliable accuracy on the test set.
+The trained YOLO11 model achieved reliable accuracy on the test set.
 
 ## Requirements
 
 - [Python](https://www.python.org/)
 - [Google Colab](https://colab.research.google.com/)
-- [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5)
+- Ultralytics YOLO11
 - Roboflow (for annotation)
 
 ## Acknowledgments
