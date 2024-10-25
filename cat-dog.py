@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load YOLO model
-model = YOLO("best.pt")
+model = YOLO("Desktop/dog-cat-detection/best.pt")
 
 # Streamlit title
 st.title("YOLO Model Deployment")
