@@ -55,3 +55,4 @@ The trained YOLO11 model achieved reliable accuracy on the test set.
 ## Acknowledgments
 
 Thanks to Roboflow, Ultralytics, and Google Colab for enabling this project.
+
