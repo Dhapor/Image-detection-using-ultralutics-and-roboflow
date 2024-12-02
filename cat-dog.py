@@ -9,7 +9,7 @@ model = YOLO("best.pt")
 
 # Streamlit title
 st.title("Cats and Dogs Image Classification")
-st.subheader("Using AI to Tell the Difference Between Cats and Dogs")  # Subtitle
+# st.subheader("Using AI to Tell the Difference Between Cats and Dogs")  # Subtitle
 st.image('Group-98-1.webp',  width = 700)
 
 # Image upload option
