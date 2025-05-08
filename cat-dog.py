@@ -23,7 +23,7 @@ if uploaded_file is not None:
     # Convert the image to OpenCV format (BGR)
     img_cv = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
     
-    # st.image(image, caption="Uploaded Image", use_column_width=True)
+    # st.image(image, caption="Uploaded Image", use_container_width=True)
     
     # Run prediction using the YOLO model
     results = model(img_cv)  # Use the OpenCV image for YOLO
@@ -31,4 +31,4 @@ if uploaded_file is not None:
     
     # Convert the result image to PIL Image for Streamlit
     result_img = Image.fromarray(result_img)
-    st.image(result_img, caption="Detected Objects", use_column_width=True)
+    st.image(result_img, caption="Detected Objects", use_container_width=True)
